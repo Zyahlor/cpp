@@ -1,0 +1,48 @@
+# ===== File thực thi (build output) =====
+*.exe
+*.out
+*.app
+a.out
+# File thực thi không đuôi (Linux/macOS): bỏ qua mọi file, trừ file có đuôi và thư mục
+*
+!*.*
+!*/
+!.gitignore
+
+# ===== File object & thư viện =====
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.pdb
+*.ilk
+*.gch
+*.pch
+
+# ===== Thư mục build =====
+build/
+bin/
+obj/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*~
+
+# ===== Obsidian (giữ ghi chú, bỏ cấu hình cá nhân) =====
+.obsidian/workspace*.json
+.obsidian/cache
+.obsidian
+
+# ===== Hệ điều hành =====
+Thumbs.db
+desktop.ini
+.DS_Store
