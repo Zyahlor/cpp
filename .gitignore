@@ -3,6 +3,7 @@
 *.out
 *.app
 a.out
+*/*.exe
 # File thực thi không đuôi (Linux/macOS): bỏ qua mọi file, trừ file có đuôi và thư mục
 *
 !*.*
